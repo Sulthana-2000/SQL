@@ -40,21 +40,21 @@ Condition: A condition is an expression that returns true or false. Rows for whi
 
 # Comparison Operators:-
 
-> '=' : Equal to
-> '<>' or '!=' : Not equal to
-> '>' : Greater than
-> '<' : Less than
-> '>=' : Greater than or equal to
-> '<=' : Less than or equal to
-> 'BETWEEN' ... 'AND' ... : Within a range
-> 'LIKE' : Pattern matching
-> 'IN' : Specifies multiple possible values for a column
-> 'IS NULL' : Checks for null values
+ '=' : Equal to
+ '<>' or '!=' : Not equal to
+ '>' : Greater than
+ '<' : Less than
+ '>=' : Greater than or equal to
+ '<=' : Less than or equal to
+ 'BETWEEN' ... 'AND' ... : Within a range
+ 'LIKE' : Pattern matching
+ 'IN' : Specifies multiple possible values for a column
+ 'IS NULL' : Checks for null values
 
 # Logical Operators:-
-> 'AND' : Combines two conditions and returns true only if both conditions are true
-> 'OR' : Combines two conditions and returns true if either condition is true
-> 'NOT' : Reverses the result of a condition
+ 'AND' : Combines two conditions and returns true only if both conditions are true
+ 'OR' : Combines two conditions and returns true if either condition is true
+ 'NOT' : Reverses the result of a condition
 
 The 'WHERE' clause is a powerful tool in SQL that allows for precise control over which records are retrieved, updated, or deleted in a database.
 Understanding how to use it effectively is fundamental to performing efficient and accurate database operations.
